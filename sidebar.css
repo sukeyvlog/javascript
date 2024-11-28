@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.sidebar {
+  background-color: darkblue;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 250px;
+  height: 100vh;
+}
+
+.sidebar .logo {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: bold;
+  font-size: larger;
+}
+/* .sidebar .logo .title{
+    color: black;
+} */
+
+.sidebar .logo img {
+  height: 50px;
+  width: 50px;
+}
+
+.sidebar .subMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.dash a {
+  color: white;
+  text-decoration: none;
+}

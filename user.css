@@ -1,0 +1,41 @@
+table {
+    width: 100%;
+    border: 2px solid black;
+  }
+  .heading {
+    background-color: skyblue;
+    color: white;
+  }
+  .tdata {
+    /* border: 1px solid black; */
+    text-align: center;
+  }
+  .tableMain {
+    padding: 20px;
+  }
+  .tableMain .title {
+    padding: 0px 20px;
+    margin-bottom: 10px;
+    font-size: x-large;
+    text-decoration: underline;
+  }
+  .dataRow {
+    border: 1px solid black;
+  }
+  
+  th {
+    padding: 10px;
+  }
+  td {
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  button {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  

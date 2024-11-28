@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+}
+
+.dashboard > .left {
+  width: 250px;
+  grid-column: 1;
+  border: 2px solid black;
+}
+
+.dashboard > .right > .section1 {
+  grid-column: 2 / span 6;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+  padding: 20px;
+}
+.dashboard > .right {
+  display: flex;
+  flex-direction: column;
+}
